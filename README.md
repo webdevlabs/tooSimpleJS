@@ -18,5 +18,11 @@ $$('#thisInput').on('change', function () {
   alert('input changed');
 });
 
+$$('#thisInputbtn').on('click', function () {
+  alert('button clicked');
+});
+
 $$('input[name="test"]').show();
+$$('input[name="test"]').hide();
+$$('input[name="test"]').toggle();
 ***
