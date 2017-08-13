@@ -23,6 +23,9 @@ $$('#thisInputbtn').on('click', function () {
 });
 
 $$('input[name="test"]').show();
+
 $$('input[name="test"]').hide();
+
 $$('input[name="test"]').toggle();
+
 ***
